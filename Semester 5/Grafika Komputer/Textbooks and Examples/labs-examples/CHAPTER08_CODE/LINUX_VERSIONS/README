@@ -1,0 +1,15 @@
+The examples in this directory show you how to have interactive menu.
+In all the examples, clicking the middle mouse button should bring up
+a menu. The user can select the limb of the robot to rotate. Clicking
+the left or right mouse button would then rotate the selected limb.
+On my laptop (Linux), I was not able to see the menu. Somehow the text of
+the menu item has the same white colour as the background of the menu,
+making it impossible to read the menu item text. However, if one knows
+the ordering of the menu items on the menu, one can still select the
+correct limb to rotate.
+
+On the machines in the lab and on my desktop PC, I didn't encounter
+any problem with the menu item text not showing up.
+
+Du Huynh
+March 216
