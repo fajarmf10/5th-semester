@@ -10,4 +10,6 @@ references:
 - https://informatikalogi.com/algoritma-k-nn-k-nearest-neighbor/
 - https://www.dataquest.io/blog/k-nearest-neighbors-in-python/
 - http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_ml/py_knn/py_knn_understanding/py_knn_understanding.html
+- E-mail Spam Filtering by Juthika Das, UFID 7173-5283
 - Pekerjaan Kakak Kelas
+
