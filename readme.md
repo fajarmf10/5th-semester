@@ -7,9 +7,11 @@ I mainly code C/C++, PHP, and Python.
 Quote for me :
 > The point is, we don't choose who we fall in love with.
 
+![alt text](https://raw.githubusercontent.com/sosispanggang/kuliah/master/semangat.jpg "Lovely Girl")
+
 Another quote :
 > We're not together anymore, but i don't think i've ever completely stopped loving her.
 
 Regards,
 
-Fajar Maulana Firdaus
+**Fajar Maulana Firdaus**
