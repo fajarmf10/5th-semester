@@ -1,9 +1,9 @@
-Buatlah implementasi k-NN dengan rumus jarak menggunakan Cosine Similarity Measure.
-Pelajari data spambase dari UCI Machine Learning Database.
-Pilah data yang tidak mengandung missing values, lalu gunakan untuk trainingSet dan testSet.
-Gunakan komposisi 2:3 untuk training:testing data.
-Jalankan k-NN dengan k bervariasi: 1, 3, 5, 19.
-Catat dan laporkan nilai akurasinya.
+- Buatlah implementasi k-NN dengan rumus jarak menggunakan Cosine Similarity Measure.
+- Pelajari data spambase dari UCI Machine Learning Database.
+- Pilah data yang tidak mengandung missing values, lalu gunakan untuk trainingSet dan testSet.
+- Gunakan komposisi 2:3 untuk training:testing data. >> 2:3 (0,4 training, 0,6 testing) atau 0,67?
+- Jalankan k-NN dengan k bervariasi: 1, 3, 5, 19.
+- Catat dan laporkan nilai akurasinya.
 
 references:
 - https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
@@ -18,3 +18,5 @@ references:
 - https://machinelearningmastery.com/how-to-load-data-in-python-with-scikit-learn/
 - http://dataaspirant.com/2016/12/27/k-nearest-neighbor-algorithm-implementaion-python-scratch/
 - https://github.com/koalaGreener/Spambase-dataset-classification
+- http://masongallo.github.io/machine/learning,/python/2016/07/29/cosine-similarity.html
+- http://dataaspirant.com/2015/04/11/five-most-popular-similarity-measures-implementation-in-python/
