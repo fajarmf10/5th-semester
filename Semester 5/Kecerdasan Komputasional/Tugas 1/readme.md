@@ -10,6 +10,11 @@ references:
 - https://informatikalogi.com/algoritma-k-nn-k-nearest-neighbor/
 - https://www.dataquest.io/blog/k-nearest-neighbors-in-python/
 - http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_ml/py_knn/py_knn_understanding/py_knn_understanding.html
+- http://scikit-learn.org/stable/modules/neighbors.html
+- https://en.wikipedia.org/wiki/Cosine_similarity
+- http://scikit-learn.org/stable/modules/generated/sklearn.metrics.pairwise.cosine_similarity.html
 - E-mail Spam Filtering by Juthika Das, UFID 7173-5283
 - Pekerjaan Kakak Kelas
-
+- https://machinelearningmastery.com/how-to-load-data-in-python-with-scikit-learn/
+- http://dataaspirant.com/2016/12/27/k-nearest-neighbor-algorithm-implementaion-python-scratch/
+- https://github.com/koalaGreener/Spambase-dataset-classification
