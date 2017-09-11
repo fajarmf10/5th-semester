@@ -20,3 +20,4 @@ references:
 - https://github.com/koalaGreener/Spambase-dataset-classification
 - http://masongallo.github.io/machine/learning,/python/2016/07/29/cosine-similarity.html
 - http://dataaspirant.com/2015/04/11/five-most-popular-similarity-measures-implementation-in-python/
+- http://dataaspirant.com/2016/12/30/k-nearest-neighbor-implementation-scikit-learn/
