@@ -1,4 +1,4 @@
-#Mengubah Program Echo Sesuai Spesifikasi
+# Mengubah Program Echo Sesuai Spesifikasi
 ![alt text](https://raw.githubusercontent.com/sosispanggang/kuliah/master/Semester%205/Pemrograman%20Jaringan/Tugas%201/tugas.jpg "Tugas 1")
 Mengubah EchoProgram yang telah dibuat dengan spesifikasi :
 __!q__ untuk close program
