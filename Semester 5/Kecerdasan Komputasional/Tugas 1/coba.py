@@ -95,4 +95,6 @@ def main():
     accuracy = getAccuracy(testSet, predictions)
     print('Accuracy: ' + repr(accuracy) + '%' + '\n')
 
-main()
+if __name__ == "__main__":
+    main()
+    
