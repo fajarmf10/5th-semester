@@ -77,6 +77,7 @@ def main():
     # generate predictions
     predictions = []
     k = input("Masukkan nilai dari k: ")  # Assumed K value
+#    print("Nilai K yang dimasukkan adalah ", k)
     for x in range(len(testSet)):
         neighbors = getNeighbors(trainingSet, testSet[x], k)
         result = getResponse(neighbors)
