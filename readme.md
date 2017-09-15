@@ -14,6 +14,8 @@ Another quote :
 
 >The saddest thing in life is meeting someone you connect with immediately then realizing you will never ever see them again.
 
+>Perhaps it's better if i live in your heart, where the world can't see me. If i'm dead, there will be no stain on our love.
+
 Regards,
 
 **Fajar Maulana Firdaus**
