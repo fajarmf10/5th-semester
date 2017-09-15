@@ -12,6 +12,8 @@ Quote for me :
 Another quote :
 > We're not together anymore, but i don't think i've ever completely stopped loving her.
 
+>The saddest thing in life is meeting someone you connect with immediately then realizing you will never ever see them again.
+
 Regards,
 
 **Fajar Maulana Firdaus**
