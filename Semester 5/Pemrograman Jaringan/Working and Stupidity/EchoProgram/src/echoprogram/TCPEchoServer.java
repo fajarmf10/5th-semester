@@ -7,6 +7,8 @@ package echoprogram;
 
 import java.io.*;
 import java.net.*;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
@@ -41,16 +43,60 @@ public class TCPEchoServer {
         Socket link = null; //Step 2
         try{
             link = serverSocket.accept(); //Step 2
+            Scanner input2 = new Scanner(link.getInputStream());
             Scanner input = new Scanner(link.getInputStream()); //Step 3
-            PrintWriter output = new PrintWriter(link.getOutputStream(),true); //Step 3.
+            PrintWriter output = new PrintWriter(link.getOutputStream(), true); //Step 3.
             int numMessages = 0;
             String message = input.nextLine(); //Step 4.
-            while (!message.equals("***CLOSE***")){
-                System.out.println("Message received.");
-                numMessages++;
-                output.println("Message " + numMessages + ": " + message); //Step 4.
+//            DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
+            DateFormat jam = new SimpleDateFormat("hh:mm:ss");
+            DateFormat hari = new SimpleDateFormat("EEEE");
+            DateFormat bulan = new SimpleDateFormat("MM");
+            Date now = new Date();// EEE gives short day names, EEEE would be full length.
+            
+            while (!message.equals("!q")){
+                if(message.equals("!t")){ //Jam
+                    System.out.println("Klien mengambil jam.");
+                    output.println("Jam :" + jam.format(now));
+                    output.flush();
+//                link.getOutputStream();
+//                System.out.println(df.format(now));
+                }
+                else if(message.equals("!d")){
+                    System.out.println("Klien mengambil hari.");
+                    output.println(hari.format(now));
+                    output.flush();
+                }
+                else if(message.equals("!m")){
+                    System.out.println("Klien mengambil bulan.");
+                    output.println(bulan.format(now));
+                    output.flush();                    
+                }
+                else if(message.equals("!#")){
+                    System.out.println("Klien nyari quote, hehe.");
+                    output.println("The best love is the kind that awakens the soul; that makes us reach for more, that plants the fire in our hearts and brings peace to our minds. That's what I hope to give you forever.");
+                    output.flush();
+                }
+                else if (message.equals("!id")){
+                    System.out.println("Klien nyari data diri.");
+                    output.println("Masukkan id yang ingin anda cari > ");
+                    int id = input2.nextInt();
+                    BufferedReader br = new BufferedReader(
+                            new InputStreamReader(new FileInputStream("id.txt")));
+                    try{
+                        String line;
+                    }
+                    finally{}
+//                    output.println("Namamu");
+                    output.flush();
+                }
+                else{
+                    System.out.println("Message received.");
+                    numMessages++;
+                    output.println("Your #" + numMessages + " message(s) is: " + message); //Step 4.
+                    }
                 message = input.nextLine();
-            }
+                }
             output.println(numMessages + " messages received."); //Step 4.
         }
         catch(IOException ioEx){
