@@ -22,7 +22,8 @@ public class TCPEchoServer {
      */
     
     private static ServerSocket serverSocket;
-    private static final int PORT = 1234;
+    private static final int PORT = 8228;
+    private static int i;
 
     public static void main(String[] args) {
         // TODO code application logic here
@@ -47,6 +48,8 @@ public class TCPEchoServer {
             Scanner input = new Scanner(link.getInputStream()); //Step 3
             PrintWriter output = new PrintWriter(link.getOutputStream(), true); //Step 3.
             int numMessages = 0;
+            BufferedReader br = null;
+            String id[][] = new String[1000][5];
             String message = input.nextLine(); //Step 4.
 //            DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
             DateFormat jam = new SimpleDateFormat("hh:mm:ss");
@@ -80,13 +83,25 @@ public class TCPEchoServer {
                 else if (message.equals("!id")){
                     System.out.println("Klien nyari data diri.");
                     output.println("Masukkan id yang ingin anda cari > ");
-                    int id = input2.nextInt();
-                    BufferedReader br = new BufferedReader(
-                            new InputStreamReader(new FileInputStream("id.txt")));
+                    String inputid = input2.nextLine();
                     try{
-                        String line;
+                        br = new BufferedReader(new FileReader("E:\\college\\Semester 5\\Pemrograman Jaringan\\Working and Stupidity\\EchoProgram\\src\\echoprogram\\id.txt"));
+                        String contentLine = br.readLine();
+                        while(contentLine != null){
+                            id[i] = contentLine.split("-");
+                            if(id[i][0].equals(inputid)){
+                                output.println("Namanya adalah :" + id[i][1]);
+                            }
+//                            output.println(id[i][0]);
+  //                          if(id[i].length == 1) {output.println("Tak Ada Identitas");}
+   //                         else {output.println(id[i][1]);}
+                            contentLine = br.readLine();
+                            i++;
+                        }
                     }
-                    finally{}
+                    catch(IOException ioe){
+                        ioe.printStackTrace();
+                    }
 //                    output.println("Namamu");
                     output.flush();
                 }
