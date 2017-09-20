@@ -23,7 +23,8 @@ public class TCPEchoServer {
     
     private static ServerSocket serverSocket;
     private static final int PORT = 8228;
-    private static int i;
+    private static int i = 0;
+    private static URL lala;
 
     public static void main(String[] args) {
         // TODO code application logic here
@@ -44,9 +45,10 @@ public class TCPEchoServer {
         Socket link = null; //Step 2
         try{
             link = serverSocket.accept(); //Step 2
-            Scanner input2 = new Scanner(link.getInputStream());
+//            Scanner input2 = new Scanner(link.getInputStream());
             Scanner input = new Scanner(link.getInputStream()); //Step 3
             PrintWriter output = new PrintWriter(link.getOutputStream(), true); //Step 3.
+//            PrintWriter output2 = new PrintWriter(link.getOutputStream(), true);
             int numMessages = 0;
             BufferedReader br = null;
             String id[][] = new String[1000][5];
@@ -57,59 +59,63 @@ public class TCPEchoServer {
             DateFormat bulan = new SimpleDateFormat("MM");
             Date now = new Date();// EEE gives short day names, EEEE would be full length.
             
+            //br = new BufferedReader(new FileReader("E:\\college\\Semester 5\\Pemrograman Jaringan\\Working and Stupidity\\EchoProgram\\src\\echoprogram\\id.txt"));
+            //String contentLine = br.readLine();
+//            while(i < 186){
+//                //5115100001-Fajar Maulana Firdaus
+//                id[i] = contentLine.split("-");
+//                contentLine = br.readLine();
+//                i++;
+//            }
+            
             while (!message.equals("!q")){
-                if(message.equals("!t")){ //Jam
-                    System.out.println("Klien mengambil jam.");
-                    output.println("Jam :" + jam.format(now));
-                    output.flush();
-//                link.getOutputStream();
-//                System.out.println(df.format(now));
+                switch (message) {
+                    case "!t":
+                        //Jam
+                        System.out.println("Client getting the time.");
+                        output.println("Jam :" + jam.format(now));
+                        output.flush();
+                        break;
+                    case "!d":
+                        System.out.println("Client want to know the current day.");
+                        output.println(hari.format(now));
+                        output.flush();
+                        break;
+                    case "!m":
+                        System.out.println("Client want to know the current month.");
+                        output.println(bulan.format(now));
+                        output.flush();
+                        break;
+                    case "!#":
+                        System.out.println("Client searching for quote, hehe.");
+                        output.println("The best love is the kind that awakens the soul; that makes us reach for more, that plants the fire in our hearts and brings peace to our minds. That's what I hope to give you forever.");
+                        output.flush();
+                        break;
+                    case "!id":
+                        Scanner serverEntry = new Scanner(System.in);
+                        String serverinput;
+                        
+//                    System.out.print("Enter message to client: ");
+//                    serverinput = serverEntry.nextLine();
+//                    output.println("Server says: " + serverinput);
+//                    System.out.println("Client want to get the ID.");
+//                    output.flush();
+//                    message = input.nextLine();
+//                    for(i=0; i<id.length; i++){
+//                        if(id[i][0].equals(message)){
+//                            output2.println("Name is:" + id[i][1]);
+//                        }
+//                        else {
+//                            output2.println("Nothing found :(");
+//                        }
+//                    }
+                        break;
+                    default:
+                        System.out.println("Message received.");
+                        numMessages++;
+                        output.println("Your #" + numMessages + " message(s) is: " + message); //Step 4.
+                        break;
                 }
-                else if(message.equals("!d")){
-                    System.out.println("Klien mengambil hari.");
-                    output.println(hari.format(now));
-                    output.flush();
-                }
-                else if(message.equals("!m")){
-                    System.out.println("Klien mengambil bulan.");
-                    output.println(bulan.format(now));
-                    output.flush();                    
-                }
-                else if(message.equals("!#")){
-                    System.out.println("Klien nyari quote, hehe.");
-                    output.println("The best love is the kind that awakens the soul; that makes us reach for more, that plants the fire in our hearts and brings peace to our minds. That's what I hope to give you forever.");
-                    output.flush();
-                }
-                else if (message.equals("!id")){
-                    System.out.println("Klien nyari data diri.");
-                    output.println("Masukkan id yang ingin anda cari > ");
-                    String inputid = input2.nextLine();
-                    try{
-                        br = new BufferedReader(new FileReader("E:\\college\\Semester 5\\Pemrograman Jaringan\\Working and Stupidity\\EchoProgram\\src\\echoprogram\\id.txt"));
-                        String contentLine = br.readLine();
-                        while(contentLine != null){
-                            id[i] = contentLine.split("-");
-                            if(id[i][0].equals(inputid)){
-                                output.println("Namanya adalah :" + id[i][1]);
-                            }
-//                            output.println(id[i][0]);
-  //                          if(id[i].length == 1) {output.println("Tak Ada Identitas");}
-   //                         else {output.println(id[i][1]);}
-                            contentLine = br.readLine();
-                            i++;
-                        }
-                    }
-                    catch(IOException ioe){
-                        ioe.printStackTrace();
-                    }
-//                    output.println("Namamu");
-                    output.flush();
-                }
-                else{
-                    System.out.println("Message received.");
-                    numMessages++;
-                    output.println("Your #" + numMessages + " message(s) is: " + message); //Step 4.
-                    }
                 message = input.nextLine();
                 }
             output.println(numMessages + " messages received."); //Step 4.

@@ -36,18 +36,19 @@ public class TCPEchoClient {
         
         //Set up stream for keyboard entry…
         Scanner userEntry = new Scanner(System.in);
+        Scanner user = new Scanner(System.in);
         String message, response;
         do{
             System.out.print("Enter message: ");
             message = userEntry.nextLine();
             if(message.equals("!id")) {
-                System.out.print("Masukkan ID >  ");
-                String id = input2.nextLine();
-                output.println(output);
+                System.out.print("Enter the ID > ");
+                String id = user.nextLine();
+                System.out.println();
             }
             output.println(message); //Step 3.
             response = input.nextLine(); //Step 3.
-            System.out.println("\nSERVER> "+response);
+            System.out.println("\nSERVER> " + response);
         }while (!message.equals("!q"));
         }
         catch(IOException ioEx){
