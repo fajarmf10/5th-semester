@@ -20,8 +20,41 @@ init( void )
     float verright0=0.3;
     for(int i=240;i<279;i++)
     {
-        points[i] = vec2 (-0.3, verright0);
+        points[i] = vec2 (-0.7, verright0);
         verright0-=0.01;
+    }
+//angka 5
+float hortop5=-0.45;
+    for(int i=100;i<119;i++)
+    {
+        points[i] = vec2 (hortop5, 0.3 );
+        hortop5+=0.01;
+    }
+
+    float verleft5=0.3;
+    for(int i=120;i<139;i++)
+    {
+        points[i] = vec2 (-0.45,verleft5);
+        verleft5-=0.01;
+    }
+    float hormid5 = -0.45;
+    for(int i=150;i<169;i++)
+    {
+        points[i] = vec2 (hormid5, 0.11 );
+        hormid5+=0.01;
+    }
+
+float verright5=0.11;
+    for(int i=170;i<189;i++)
+    {
+        points[i] = vec2 (-0.26,verright5);
+        verright5-=0.01;
+    }
+float horbot5 = -0.45;
+    for(int i=190;i<209;i++)
+    {
+        points[i] = vec2 (horbot5, -0.08 );
+        horbot5+=0.01;
     }
 
 // angka 7
@@ -37,15 +70,6 @@ init( void )
     {
         points[i] = vec2 (0.09,verright7);
         verright7-=0.01;
-    }
-
-// angka 1
-
-    float verright1=0.3;
-    for(int i=50;i<89;i++)
-    {
-        points[i] = vec2 (0.35, verright1);
-        verright1-=0.01;
     }
 
     // Create a vertex array object
