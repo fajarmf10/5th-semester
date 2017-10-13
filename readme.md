@@ -5,16 +5,14 @@ I use SourceTree, GitKraken, Atom.io Text Editor, Sublime Text 3, XAMPP on Windo
 I mainly code C/C++, PHP, and Python.
 
 Quote for me :
-> The point is, we don't choose who we fall in love with.
-
-![alt text](https://raw.githubusercontent.com/sosispanggang/kuliah/master/semangat.jpg "Lovely Girl")
+> “The truth is, unless you let go, unless you forgive yourself, unless you forgive the situation, unless you realize that the situation is over, you cannot move forward.” – Steve Maraboli
 
 Another quote :
-> We're not together anymore, but i don't think i've ever completely stopped loving her.
+> “When lifes seems hopeless, rearrange things for a dose of dopeness.” – Kid Cudi
 
->The saddest thing in life is meeting someone you connect with immediately then realizing you will never ever see them again.
+> “A bridge can still be built, while the bitter waters are flowing beneath.” – Anthony Liccione
 
->Perhaps it's better if i live in your heart, where the world can't see me. If i'm dead, there will be no stain on our love.
+> “There’s an important difference between giving up and letting go.” – Jessica Hatchigan
 
 Regards,
 
