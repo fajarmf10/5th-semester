@@ -1,0 +1,17 @@
+Tugas: Mengidentifikasi masalah pada suatu sistem, dan menemukan perbaikannya.
+
+Laporan: PPT berisi
+	Daftar kelompok,
+	Gambaran sistem, 
+	problem, 
+	strategi yang digunakan (PA, RCA, dll), 
+	perbaikan)
+
+PA: Syirria
+RCA: Faiq
+DA: Hero
+ABC: Feliq
+IB: Aulia
+OA: Syafira
+TA: Firda
+AE: Raca
