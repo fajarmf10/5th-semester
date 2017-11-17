@@ -3,6 +3,7 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <math.h>
+#define my_sizeof(type) ((char *)(&type+1)-(char*)(&type))
 /*
 Fajar Maulana Firdaus
 
@@ -18,11 +19,10 @@ Maka jumlah minimum lompatan adalah: 3
 Dengan hassil rekontruksinya adalah 1􇐃
 */
 
-void process(int a[]);
 
 int main(){
-	int a[1000];
-	int history[100];
+	int a[1000], k=0;
+	int history[100] = { 0 };
 	int i;
 	int j=0;
 	int count=0;
@@ -36,13 +36,21 @@ int main(){
 		else{
 			if(a[i] > j) printf("Jumlah minimum lompatan adalah : %d\n", count);
 			else{
+				history[k] = a[i];
 				i += a[i];
 				count++;
+				k++;
 			}
 		}
-		
 	}
+	int size = my_sizeof(history)/my_sizeof(history[0]);
 	printf("Jumlah minimum lompatan adalah : %d\n", count);
+	printf("Dengan hasil rekonstruksinya adalah ");
+	for(i=0; i<size; i++){
+		if(history[i] != 0){
+			printf("%d ", history[i]);
+		};
+	}
 	getch();
 	
 }
