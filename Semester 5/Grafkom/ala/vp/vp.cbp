@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="vp" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/vp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DGLEW_STATIC" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/glew32s.lib" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/glew32.lib" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/freeglut.lib" />
+					<Add library="C:/Program Files (x86)/CodeBlocks/MinGW/lib/libopengl32.a" />
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/vp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="cobaFP.cpp" />
+		<Unit filename="glTexture.cpp" />
+		<Unit filename="glTexture.h" />
+		<Unit filename="glm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glm.h" />
+		<Unit filename="glm_util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glmimg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glmimg_devil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glmimg_jpg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glmimg_png.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glmimg_sdl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glmimg_sim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="glmint.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

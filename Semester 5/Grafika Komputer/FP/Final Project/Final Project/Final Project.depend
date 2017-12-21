@@ -1,0 +1,257 @@
+# depslib dependency file v1.0
+1419848034 source:e:\kuliah\semester 5\grafkom\final project\glm.c
+	"config.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"glm.h"
+	"glmint.h"
+
+1419943694 e:\kuliah\semester 5\grafkom\final project\glm.h
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<gl\glut.h>
+
+1416260560 e:\kuliah\semester 5\grafkom\final project\glmint.h
+
+1416260568 source:e:\kuliah\semester 5\grafkom\final project\glm_util.c
+	"config.h"
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<stdio.h>
+	"glm.h"
+	"glmint.h"
+
+1416260570 source:e:\kuliah\semester 5\grafkom\final project\glmimg.c
+	"config.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<Windows.h>
+	<gl\glew.h>
+	"glm.h"
+	"glmint.h"
+
+1416260558 source:e:\kuliah\semester 5\grafkom\final project\glmimg_devil.c
+	"config.h"
+	"glm.h"
+	"glmint.h"
+	<IL\il.h>
+	<stdlib.h>
+
+1419954126 source:e:\kuliah\semester 5\grafkom\final project\main.cpp
+	<stdio.h>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<gl\glut.h>
+	<cstdio>
+	<algorithm>
+	<cmath>
+	<iostream>
+	<gl\freeimage.h>
+	"glm.h"
+
+1419902036 source:e:\5112100030 - risky ds\grafkom\final project\glm.c
+	"config.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"glm.h"
+	"glmint.h"
+
+1420052066 e:\5112100030 - risky ds\grafkom\final project\glm.h
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<gl\glut.h>
+
+1416314560 e:\5112100030 - risky ds\grafkom\final project\glmint.h
+
+1416314568 source:e:\5112100030 - risky ds\grafkom\final project\glm_util.c
+	"config.h"
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<stdio.h>
+	"glm.h"
+	"glmint.h"
+
+1416314570 source:e:\5112100030 - risky ds\grafkom\final project\glmimg.c
+	"config.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<Windows.h>
+	<gl\glew.h>
+	"glm.h"
+	"glmint.h"
+
+1416314558 source:e:\5112100030 - risky ds\grafkom\final project\glmimg_devil.c
+	"config.h"
+	"glm.h"
+	"glmint.h"
+	<IL\il.h>
+	<stdlib.h>
+
+1420050770 source:e:\5112100030 - risky ds\grafkom\final project\main.cpp
+	<stdio.h>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<gl\glut.h>
+	<cstdio>
+	<algorithm>
+	<cmath>
+	<iostream>
+	<gl\freeimage.h>
+	"glm.h"
+
+1419848036 source:e:\kuliah\semester 5\grafkom\final project 2\final project\glm.c
+	"config.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"glm.h"
+	"glmint.h"
+
+1419998068 e:\kuliah\semester 5\grafkom\final project 2\final project\glm.h
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<gl\glut.h>
+
+1416260560 e:\kuliah\semester 5\grafkom\final project 2\final project\glmint.h
+
+1416260568 source:e:\kuliah\semester 5\grafkom\final project 2\final project\glm_util.c
+	"config.h"
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<stdio.h>
+	"glm.h"
+	"glmint.h"
+
+1416260570 source:e:\kuliah\semester 5\grafkom\final project 2\final project\glmimg.c
+	"config.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<Windows.h>
+	<gl\glew.h>
+	"glm.h"
+	"glmint.h"
+
+1416260558 source:e:\kuliah\semester 5\grafkom\final project 2\final project\glmimg_devil.c
+	"config.h"
+	"glm.h"
+	"glmint.h"
+	<IL\il.h>
+	<stdlib.h>
+
+1419998050 source:e:\kuliah\semester 5\grafkom\final project 2\final project\main.cpp
+	<stdio.h>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<gl\glut.h>
+	<cstdio>
+	<algorithm>
+	<cmath>
+	<iostream>
+	<gl\freeimage.h>
+	"glm.h"
+
+1513563132 source:e:\college\semester 5\grafika komputer\fp\final project\final project\glm.c
+	"config.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"glm.h"
+	"glmint.h"
+
+1513563132 e:\college\semester 5\grafika komputer\fp\final project\final project\glm.h
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<gl\glut.h>
+
+1513563132 e:\college\semester 5\grafika komputer\fp\final project\final project\glmint.h
+
+1513563132 source:e:\college\semester 5\grafika komputer\fp\final project\final project\glm_util.c
+	"config.h"
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	<stdio.h>
+	"glm.h"
+	"glmint.h"
+
+1513563132 source:e:\college\semester 5\grafika komputer\fp\final project\final project\glmimg.c
+	"config.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<math.h>
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<Windows.h>
+	<gl\glew.h>
+	"glm.h"
+	"glmint.h"
+
+1513563132 source:e:\college\semester 5\grafika komputer\fp\final project\final project\glmimg_devil.c
+	"config.h"
+	"glm.h"
+	"glmint.h"
+	<IL\il.h>
+	<stdlib.h>
+
+1513563140 source:e:\college\semester 5\grafika komputer\fp\final project\final project\main.cpp
+	<stdio.h>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<gl\glut.h>
+	<cstdio>
+	<algorithm>
+	<cmath>
+	<iostream>
+	<gl\freeimage.h>
+	"glm.h"
+

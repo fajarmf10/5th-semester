@@ -1,0 +1,20 @@
+[TUGAS FILE SERVER] 
+
+-membuat file server dengan cara protocol http 
+-client basic: 
+  1. memperlihatkan daftar file yg ada, kek kalo di cmd pake dir 
+  2. meletakkan file 
+  3. mengambil file 
+-client advance:  
+  1. menghapus file 
+  2. membuat direktori 
+  3. menghapus direktori 
+  4. memindahkan direktori 
+  5. memindahkan antar direktori 
+
+minggu ke 16 uas, demoin ini 
+bikin laporan buat 3 tugas(ftp, chat server, file server), jobdesk per anggota dituliskan
+
+https://intip.in/semangatProgja
+https://intip.in/pjarChatServe
+itu yaa kalo mau edit/ngerjain biar semua bisa akses

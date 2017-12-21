@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1423235834 source:e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\camera.cpp
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<cmath>
+	"camera.h"
+
+1423235838 e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\camera.h
+
+1423235847 source:e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\main.cpp
+	<cmath>
+	<cstdlib>
+	<Windows.h>
+	<gl\gl.h>
+	<gl\glut.h>
+	<GL\glu.h>
+	"tga.h"
+	"solarsystem.h"
+	"camera.h"
+	"globals.h"
+
+1423235903 e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\tga.h
+	<Windows.h>
+	<gl\GL.h>
+
+1423235898 e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\solarsystem.h
+	<Windows.h>
+	<gl\GL.h>
+	<vector>
+	"planet.h"
+
+1423235892 e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\planet.h
+	<Windows.h>
+	<gl\GL.h>
+	<vector>
+	"moon.h"
+
+1423235854 e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\moon.h
+	<Windows.h>
+	<gl\GL.h>
+
+1423235842 e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\globals.h
+
+1423235850 source:e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\moon.cpp
+	"moon.h"
+	<cmath>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<gl\glut.h>
+	"globals.h"
+
+1423235889 source:e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\planet.cpp
+	"planet.h"
+	<cmath>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+	<gl\glut.h>
+	"globals.h"
+
+1423235894 source:e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\solarsystem.cpp
+	"solarsystem.h"
+
+1423235900 source:e:\college\semester 5\grafika komputer\fp\solarsystemsourcecode\solarsystemsourcecode\tga.cpp
+	"tga.h"
+	<cstdio>
+	<cstdlib>
+	<Windows.h>
+	<gl\GL.h>
+	<gl\GLU.h>
+

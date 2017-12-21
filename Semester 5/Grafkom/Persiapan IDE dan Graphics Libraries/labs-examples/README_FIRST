@@ -1,0 +1,14 @@
+In 2015, I put in quite a fair bit of effort tidying up the code given
+by the author Angel. Most of my work was for the Linux version of the
+code. For some of the souce .cpp files, I put in comments to help explain
+the code and I even added additional functionalities.
+
+In 2016, I tidied up some of the code for the Mac version as well. In
+particular, I fixed the errors in original Makefile in all the chapters'
+directories. However, I did not have the time to repeat what I'd done last
+year for the Mac version.  Students using the code in the MAC_VERSIONS
+directory are thus suggested to look at the code in the LINUX_VERSIONS
+directory as well.
+
+Du Huynh
+Coordinator of CITS3003

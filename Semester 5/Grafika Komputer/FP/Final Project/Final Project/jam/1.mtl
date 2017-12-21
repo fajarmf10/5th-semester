@@ -1,0 +1,43 @@
+newmtl blinn1SG
+Kd 1.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+illum 2
+#map_Kd sch.jpg
+
+newmtl blinn2SG
+Kd 0.14 0.14 0.14
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+illum 2
+#map_Kd sch.jpg
+
+newmtl blinn3SG
+Kd 10.00 10.00 10.00
+Ka 0.00 0.00 0.00
+Tf 10.25 10.25 10.25
+Ni 1.00
+Ks 0.50 0.50 0.50
+illum 2
+map_Kd sch.jpg
+
+newmtl blinn4SG
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.50 0.50 0.50
+illum 2
+map_Kd fr.jpg
+
+newmtl initialShadingGroup
+#map_Kd sch.jpg
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+illum 2
